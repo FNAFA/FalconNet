@@ -2,10 +2,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/fnafa/falconnet">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/FNLogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center"># FalconNet</h3>
+  <h3 align="center">FalconNet</h3>
 
   <p align="center">
     Community-compiled mobile and web application enabling day-to-day operations at USAFA
