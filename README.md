@@ -43,6 +43,6 @@
 
 <ul>
   <li><a href="mailto:C22Andrew.Panzarella@afacademy.af.edu">Andrew Panzarella</a>: Director</li>
-  <li><a href="mailto:C22Joshua.Krutz@afacademy.af.edu">Joshua Krutz</a>: Deputy Director. Joshua is a computer science and cyber science major at USAFA.</li>
+  <li><a href="mailto:C22Joshua.Krutz@afacademy.af.edu">Joshua Krutz</a>: Deputy Director</li>
   <li><a href="mailto:C22Jim.Wang@afacademy.af.edu">Jim Wang</a>: . IT Officer</li>
 </ul>
