@@ -21,17 +21,17 @@ Go to [Flutter's Windows install page](https://flutter.dev/docs/get-started/inst
 
 Next, we want to add the flutter binary folder to our User's `Path` variable. This will allow us to run the `flutter` command without navigating to the requisite folder every time.
 
-Download Android Studio at [their downloads page](https://developer.android.com/studio). Run the downloaded executable and click through the install wizard. All default options should work. Now start the program and click through those the start options too. Wait for it to u
+Download Android Studio at [their downloads page](https://developer.android.com/studio). Run the downloaded executable and click through the install wizard. All default options should work. Now start the program and click through those the start options too.
 
-Ok... this is the difficult/weird part. Navigate to `flutter\bin` and run `flutter doctor`. You should see some tests fail, namely those that work with the android studio SDK. These obviously need fixing.
+Ok... this is the difficult/weird part. Using command prompt (sorry, you will have to learn cmd commands) navigate to `flutter\bin` and run `flutter doctor`. You should see some tests fail, namely those that work with the android studio SDK. These obviously need fixing.
 
-Open up AndroidS Studio and navigate to the settings panel. Under the system settings, select Android SDK. Select the SDK tools tab and check the `Android SDK Command-line Tools (latest)` checkbox. Accept all changes.
+Open up Android Studio and navigate to the settings panel. Under the system settings, select Android SDK. Select the SDK tools tab and check the `Android SDK Command-line Tools (latest)` checkbox. Accept all changes.
 
-Now, return to the command line and enter the function  `flutter doctor --android-licenses`. Finally this should fix all of our issues.
+Now, return to the command line and enter the function `flutter doctor --android-licenses`. Finally this should fix all of our issues.
 
 Return to Android Studio again and find the Plugins tab. Install the flutter and Dart plugins and restart the IDE when prompted. Finally, we should see the `New FLutter Project` button appear on our home.
 
-Create that new click that button and select new Flutter app. Enter the path to your SDK (should be something like `C:\Users\C22Jim.Wang\Documents\flutter`). Name your app and finish.
+Click the create new project button and select new Flutter app. Enter the path to your SDK (should be something like `C:\Users\C22Jim.Wang\Documents\flutter`). Name your app and finish.
 
 We should now have a template app up. Flutter runs all its code within what's called an "AVM," or Android Virtual Machine. This is basically an emulator for an Android device on your computer. Open the tools tab and Select 'AVM Manager' and create your AVM there. You will need to select what version of android you want to install in the middle, I just chose Android R.
 
