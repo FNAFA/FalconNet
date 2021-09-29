@@ -33,7 +33,7 @@ Return to Android Studio again and find the Plugins tab. Install the flutter and
 
 Click the create new project button and select new Flutter app. Enter the path to your SDK (should be something like `C:\Users\C22Jim.Wang\Documents\flutter`). Name your app and finish.
 
-We should now have a template app up. Flutter runs all its code within what's called an "AVM," or Android Virtual Machine. This is basically an emulator for an Android device on your computer. Open the tools tab and Select 'AVM Manager' and create your AVM there. You will need to select what version of android you want to install in the middle, I just chose Android R.
+We should now have a template app up. Flutter runs all its code within what's called an "AVD," or Android Virtual Device. This is basically an emulator for an Android device on your computer. Open the tools tab and Select 'AVM Manager' and create your AVM there. You will need to select what version of android you want to install in the middle, I just chose Android R.
 
 The AVM usually takes a bit of time to start up, so be patient with it. When it does, you will see a smartphone on your screen.
 
