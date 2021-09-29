@@ -17,7 +17,7 @@ We'll primarily be programming FalconNet with **Flutter/Dart** within **Android 
 
 ### Windows Tutorial
 
-Go to [Flutter's Windows install page](https://flutter.dev/docs/get-started/install/windows) and click *Flutter_windows_2.5.1-stable.zip* (or whatever the most recent stable version is), and unzip the file. After the wait, open the folder and place the nested ```flutter``` folder in whatever directory you want. I chose ```C:\Users\C22Jim.Wang\Documents```.
+Go to [Flutter's Windows install page](https://flutter.dev/docs/get-started/install/windows) and click *Flutter_windows_2.5.1-stable.zip* (or whatever the most recent stable version is), and unzip the file. After the wait, open the folder and place the nested `flutter` folder in whatever directory you want. I chose `C:\Users\C22Jim.Wang\Documents`.
 
 Next, we want to add the flutter binary folder to our User's `Path` variable. This will allow us to run the `flutter` command without navigating to the requisite folder every time.
 
@@ -25,7 +25,7 @@ Download Android Studio at [their downloads page](https://developer.android.com/
 
 Ok... this is the difficult/weird part. Using command prompt (sorry, you will have to learn cmd commands) navigate to `flutter\bin` and run `flutter doctor`. You should see some tests fail, namely those that work with the android studio SDK. These obviously need fixing.
 
-Open up Android Studio and navigate to the settings panel. Under the system settings, select Android SDK. Select the SDK tools tab and check the `Android SDK Command-line Tools (latest)` checkbox. Accept all changes.
+Open up Android Studio and navigate to the settings panel. This will be under customize.  Under the system settings, select Android SDK. Select the SDK tools tab and check the `Android SDK Command-line Tools (latest)` checkbox. Accept all changes.
 
 Now, return to the command line and enter the function `flutter doctor --android-licenses`. Finally this should fix all of our issues.
 
