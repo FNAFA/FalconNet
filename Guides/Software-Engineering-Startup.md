@@ -17,9 +17,11 @@ We'll primarily be programming FalconNet with **Flutter/Dart** within **Android 
 
 ### Windows Tutorial
 
+This tutorial is derived from Googles [startup guide](https://flutter.dev/docs/get-started/install/windows). While, gives more in-depth insights into potential errors you may encounter, I *HIGHLY* encourage reading over the startup guide to either reaffirm your install or gain a high-level understanding of this process.
+
 Go to [Flutter's Windows install page](https://flutter.dev/docs/get-started/install/windows) and click *Flutter_windows_2.5.1-stable.zip* (or whatever the most recent stable version is), and unzip the file. After the wait, open the folder and place the nested `flutter` folder in whatever directory you want. I chose `C:\Users\C22Jim.Wang\Documents`.
 
-Next, we want to add the flutter binary folder to our User's `Path` variable. This will allow us to run the `flutter` command without navigating to the requisite folder every time.
+Next, we want to add the flutter binary folder to our User's `Path` variable. This will allow us to run the `flutter` command without navigating to the requisite folder every time. Reference Google's startup guide for this.
 
 Download Android Studio at [their downloads page](https://developer.android.com/studio). Run the downloaded executable and click through the install wizard. All default options should work. Now start the program and click through those the start options too.
 
