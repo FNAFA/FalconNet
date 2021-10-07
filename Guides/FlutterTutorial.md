@@ -46,16 +46,3 @@ Congrats, we've finally finished our initial Flutter install.
 ### Mac Tutorial
 
 Coming soon<sup>tm</sup>
-
-## Git
-
-### Windows Tutorial
-
-We'll use git bash for windows. Go to [git's downloads page](https://git-scm.com/downloads) and click on the Windows link. The browser should automatically download the installer. Run the installer with all default settings.
-
-Since the command-line may seem daunting for newer coders, we will be using a GUI for VCS. Visit [GitKraken's home](https://www.gitkraken.com/) and click the glowing download button. Run through the install with default options again.
-
-To link your github account to the git client on your computer, .
-
-### Mac Tutorial
-<sub>Undy Constructy</sub>
