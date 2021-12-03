@@ -1,10 +1,14 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 class Loading extends StatelessWidget {
   const Loading({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    var ht = MediaQuery.of(context).size.height;
+    var wd = MediaQuery.of(context).size.width;
     return Container(
       color: Color(0xff243e6b),
       child: Stack(
@@ -12,16 +16,16 @@ class Loading extends StatelessWidget {
           Column(
           children: [
             Expanded(
-              flex: 1,
+              flex: 105,
               child: SizedBox(
                 height: 100,
               ),
             ),
             Expanded(
-              flex: 5,
+              flex: 735,
               child: Center(
                 child: CustomPaint(
-                  size: Size(280,280),
+                  size: Size(wd,ht),
                   painter: DrawTriangleShape(0xff111e50),
                 ),
               ),
@@ -31,17 +35,19 @@ class Loading extends StatelessWidget {
           Column (
             children: [
               Expanded(
-                flex: 1,
+                flex: 400,
                 child: SizedBox(
-                  height: 100,
+                  height: ht*316/735,
                 ),
               ),
               Expanded(
-                flex: 5,
+                flex: 316,
                 child: Center(
-                  child: CustomPaint(
-                    size: Size(100,100),
-                    painter: DrawTriangleShape(0xff243e6b),
+                  child: Container(
+                    child: CustomPaint(
+                      size: Size(wd*157/360,ht/3),
+                      painter: DrawTriangleShape(0xff243e6b),
+                    ),
                   ),
                 ),
               ),
@@ -71,7 +77,7 @@ class DrawTriangleShape extends CustomPainter {
 
     path.moveTo(size.width/2, 0);
     path.lineTo(0, size.height);
-    path.lineTo(size.height, size.width);
+    path.lineTo(size.width, size.height);
     path.close();
 
     canvas.drawPath(path,painter);
