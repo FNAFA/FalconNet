@@ -1,0 +1,16 @@
+.body{
+    background-color: whitesmoke;
+}
+
+.button{
+    border: none;
+    background-color: whitesmoke;
+    padding: none; 
+    cursor: pointer;
+}
+
+.scroll{
+    overflow: scroll;
+    height: 300px;
+    width: 200px; 
+}
