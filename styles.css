@@ -7,6 +7,7 @@
     background-color: whitesmoke;
     padding: none; 
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .div{
@@ -31,7 +32,14 @@
 #backimg{
     width:20px; 
     height:20px;
+    border-radius: 20px;
 }
+#backbutton{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
