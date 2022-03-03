@@ -28,7 +28,10 @@
 .header_bolded{
     text-decoration-thickness: 3px;
 }
-
+#backimg{
+    width:20px; 
+    height:20px;
+}
 /* Style the tab */
 .tab {
     overflow: hidden;
