@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Grading Overview</title>
+
+        <script>
+            function openTab(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";}
+        </script>
+
+    </head>
+    <body>
+        <button onclick="history.back()">
+        <img src="back2.png"></button>
+        
+    </body>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Main</button>
+        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Grade</button>
+        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Rotation</button>
+        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Modify</button>
+    </div>
+
+    <div id="News & Updates" class="tabcontent">
+        <h2 class="header_underlined_bolded_red">Grading Overview</h2>
+        <br>
+        <p>Today: AMI 4</p>
+        <p>You are grading CG01 Staff which is located in Vandenberg Main on the 3rd floor.
+        </p>
+        <br>
+        <p>All rooms in CG01 Staff have been AMI'd.</p>
+    </div>
+</html>
