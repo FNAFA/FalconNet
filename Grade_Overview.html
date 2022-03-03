@@ -34,13 +34,23 @@
     </body>
 
     <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Main</button>
-        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Grade</button>
-        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Rotation</button>
-        <button class="tablinks" onclick="openTab(event, 'News & Updates')">Modify</button>
+        <button class="tablinks" onclick="openTab(event, 'Main')">Main</button>
+        <button class="tablinks" onclick="openTab(event, 'Grading Overview')">Grade</button>
+        <button class="tablinks" onclick="openTab(event, 'Rotation')">Rotation</button>
+        <button class="tablinks" onclick="openTab(event, 'Modify')">Modify</button>
     </div>
 
-    <div id="News & Updates" class="tabcontent">
+    <div id="Main" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-display-topright">Close Tab</span>
+        <h2 class="header_underlined_bolded_red">Main</h2>
+        <br>
+        <p>FalconNet is down right now; I don't know what goes in here.</p>
+    </div>
+
+    <div id="Grading Overview" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-display-topright">Close Tab</span>
         <h2 class="header_underlined_bolded_red">Grading Overview</h2>
         <br>
         <p>Today: AMI 4</p>
@@ -49,4 +59,21 @@
         <br>
         <p>All rooms in CG01 Staff have been AMI'd.</p>
     </div>
+
+    <div id="Rotation" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-display-topright">Close Tab</span>
+        <h2 class="header_underlined_bolded_red">Rotation</h2>
+        <br>
+        <p>FalconNet is down right now; I don't know what goes in here.</p>
+    </div>
+
+    <div id="Modify" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-display-topright">Close Tab</span>
+        <h2 class="header_underlined_bolded_red">Modify</h2>
+        <br>
+        <p>FalconNet is down right now; I don't know what goes in here.</p>
+    </div>
+
 </html>
