@@ -23,6 +23,7 @@ header button{
     padding: none; 
     cursor: pointer;
     border-radius: 5px;
+    background-color: rgb(255, 254, 254);
 }
 
 .inline_parent {
@@ -62,6 +63,7 @@ header button{
     padding-bottom: 110%;
     display: inline-block;
     overflow: hidden;
+    background-color: rgb(255, 254, 254);
   }
 
 /* Style the tab */
