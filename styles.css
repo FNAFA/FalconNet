@@ -2,12 +2,37 @@
     background-color: whitesmoke;
 }
 
-.button{
+header {
+  color:#af2412;
+  letter-spacing: 5px;
+  font-family: "Times New Roman"
+}
+
+header em1 {
+  font-size: small;
+  letter-spacing: 3px;
+}
+
+header em2 {
+  letter-spacing: 0px;
+}
+
+header button{
     border: none;
     background-color: whitesmoke;
     padding: none; 
     cursor: pointer;
     border-radius: 5px;
+}
+
+.inline_parent {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.inline_child {
+  display: inline-block;
+  overflow: hidden;
 }
 
 .div{
@@ -27,18 +52,17 @@
 }
 
 .header_bolded{
+    color:#af2412;
     text-decoration-thickness: 3px;
 }
 #backimg{
     width:20px; 
-    height:20px;
+    height:100%;
     border-radius: 20px;
-}
-#backbutton{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-}
+    padding-bottom: 110%;
+    display: inline-block;
+    overflow: hidden;
+  }
 
 /* Style the tab */
 .tab {
