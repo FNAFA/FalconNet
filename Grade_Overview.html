@@ -50,35 +50,55 @@
             class="w3-button w3-display-topright">Close Tab</span>
         <h2 class="header_underlined_bolded_red">Main</h2>
         <br>
-        <p>FalconNet is down right now; I don't know what goes in here.</p>
+        <p>No graded events today!</p>
     </div>
 
     <div id="Grading Overview" class="tabcontent">
         <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-display-topright">Close Tab</span>
-        <h2 class="header_underlined_bolded_red">Grading Overview</h2>
+        <h2 class="header_underlined_bolded_red">Input a Grade</h2>
         <br>
-        <p>Today: AMI 4</p>
-        <p>You are grading CG01 Staff which is located in Vandenberg Main on the 3rd floor.
-        </p>
+        <p>Select a grade sheet</p>
+        <p></p>
         <br>
-        <p>All rooms in CG01 Staff have been AMI'd.</p>
+        <p></p>
     </div>
 
     <div id="Rotation" class="tabcontent">
         <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-display-topright">Close Tab</span>
-        <h2 class="header_underlined_bolded_red">Rotation</h2>
+        <h2 class="header_underlined_bolded_red">Grading Rotation</h2>
         <br>
-        <p>FalconNet is down right now; I don't know what goes in here.</p>
+        <p>The following table shows what unit you will</p>
+        <p>be grading for a particular event.Events that</p>
+        <p>are crossed out are in the past.</p>
     </div>
-
     <div id="Modify" class="tabcontent">
         <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-display-topright">Close Tab</span>
-        <h2 class="header_underlined_bolded_red">Modify</h2>
+        <h2 class="header_underlined_bolded_red">Modify a Grade</h2>
         <br>
-        <p>FalconNet is down right now; I don't know what goes in here.</p>
-    </div>
+        <p>Select a Unit</p>
+        <div class="dropdown">
+            <button class="dropbtn"> Select a Unit</button>
+            <div class="dropdown-content">
+            <button class="tablinks" onclick="openTab(event, 'CG01')"> CG01 </button>
+            <button class="tablinks" onclick="openTab(event, 'CG01')"> Wing Staff </button>
+            </div>
+            </div>
 
+    </div>
+    <div id="CG01" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-display-topright">Close Tab</span>
+        <h2 class="header_underlined_bolded_red">Modify a Grade</h2>
+        <br>
+        <p>Choose a Cadet</p>
+        <div class="dropdown">
+            <button class="dropbtn">Choose a Cadet</button>
+            <div class="dropdown-content">
+            <button class="tablinks" onclick="openTab(event, 'Cadet')"> Cadet </button>
+            </div>
+            </div>
+    </div>
 </html>
