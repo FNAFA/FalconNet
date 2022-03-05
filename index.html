@@ -25,6 +25,8 @@
 
 <body>
     
+
+
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -110,37 +112,11 @@
                                     <a href="subPages/form1.html">
                                         <button>Click to Sign the Form 1 - link</button>
                                       </a>
-                                    <!-- Button to Open the Modal -->
+                                    <!-- Button to Open Form 1 Modal -->
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                                         Sign the Form 1 - modal
                                     </button>
                                     
-                                    <!-- The Modal -->
-                                    <div class="modal" id="myModal">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                    
-                                            <!-- Modal Header -->
-                                            <div class="modal-header">
-                                            <h4 class="modal-title">Modal Heading</h4>
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            </div>
-                                    
-                                            <!-- Modal body -->
-                                            <div class="modal-body">
-                                            <h2>Sign the Form 1</h2>
-                                            <h3>I certify that I am at my location of domicile</h3>
-                                            <button type="button">Sign</button>
-                                            </div>
-                                    
-                                            <!-- Modal footer -->
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                            </div>
-                                    
-                                        </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -175,6 +151,10 @@
                                         <a href="subPages/ro.html">
                                             <button>Click to Access the RO</button>
                                           </a>
+                                        <!-- Button to Open RO Modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                                        View the RO
+                                    </button>
                                     </div>
                                 </div>
                         </div>
@@ -182,19 +162,7 @@
                 </div>
                 <div class="col-xl-4 col-md-4">
                     <div class="single_service">
-                        <div class="service_hover">
-                            <img src="img/svg_icon/icon3.png" alt="">
-                            <h3>AMI</h3>
-                            <div class="hover_content">
-                                    <div class="hover_content_inner">
-                                        <h4>AMI</h4>
-                                        <p> this is where we put a 98 on ur ami</p>
-                                        <a href="subPages/ami.html">
-                                            <button>Click to Access AMI Scores</button>
-                                          </a>
-                                    </div>
-                                </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -232,5 +200,57 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <!-- From 1 Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title">Sign the From 1</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+            <h3>I certify that I am at my location of domicile</h3>
+            <button type="button">Sign</button>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+
+        <!-- RO Modal -->
+        <div class="modal" id="myModal2">
+            <div class="modal-dialog">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">View the RO</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                <h3>Routine is in Order</h3>
+                <button type="button">Sign</button>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
 </body>
 </html>
