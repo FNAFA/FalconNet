@@ -1,11 +1,38 @@
+:root {
+  /*Primary Colors: standard css*
+  /*midnightblue, whitesmoke*/
+  /*Secondary Colors*/
+  /*Color usage: var(--NAME)*/
+  --AcademyGray: rgb(160,163,165);
+  --MardiGras: rgb(35,30,35);
+  --DarkSlateGray: rgb(55,71,79);
+  --Gainsboro: rgb(230,230,230);
+  /*Tertiary Colors*/
+  --Dimgray: rgb(85,91,110);
+  --CrimsonSE: rgb(213,32,44);
+}
+
+@font-face {
+  /*H2/subtitle font*/
+  font-family: Montserrat;
+  src: url('assets/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  /*standard body text*/
+  font-family: Milliard;
+  src: url('assets/Rene Bieder  Milliard Book.woff');
+}
+
 .body{
     background-color: whitesmoke;
+    font-family: Milliard;
 }
 
 header {
-  color:#af2412;
+  color:var(--CrimsonSE);
   letter-spacing: 5px;
-  font-family: "Times New Roman"
+  font-family: Montserrat;
 }
 
 header em1 {
@@ -37,7 +64,7 @@ header button{
 }
 
 .div{
-    font-family: "Times New Roman";
+    font-family: Milliard;
 }
 
 .scroll{
@@ -47,13 +74,14 @@ header button{
 }
 
 .header_underlined_bolded_red{
-    color:#af2412;
+    font-family: Montserrat;
+    color:var(--CrimsonSE);
     text-decoration-line: underline;
     text-decoration-thickness: 3px;
 }
 
 .header_bolded{
-    color:#af2412;
+    color:var(--CrimsonSE);
     text-decoration-thickness: 3px;
 }
 #backimg{
@@ -63,14 +91,14 @@ header button{
     padding-bottom: 110%;
     display: inline-block;
     overflow: hidden;
-    background-color: rgb(255, 254, 254);
+    background-color: whitesmoke;
   }
 
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid var(--AcademyGray);
+    background-color: whitesmoke;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -101,3 +129,80 @@ header button{
     border: 1px solid #ccc;
     border-top: none;
   }
+
+  .banner {
+    background-color: midnightblue;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    height: 50px;
+    width: 100%;
+    color: whitesmoke;
+    position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dropbtn {
+  background-color: whitesmoke;
+  color: var(--MardiGras);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  margin: 10px
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--Gainsboro);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px var(--MardiGras);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: var(--AcademyGray)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--AcademyGray);
+}
+
+.sheetTitle {
+  font-family: Montserrat;
+  color:var(--CrimsonSE);
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  font-size: 20px;
+}
+
+.roomHeader {
+  position: relative;
+  width: 50%;
+}
+
+.roomData {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.gradeSheet {
+  font-family: Milliard;
+}
