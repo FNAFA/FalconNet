@@ -1230,7 +1230,7 @@ h3 {
 
 /* line 312, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #ff1744;
+  color: #007bff;
   margin-right: 7px;
 }
 
@@ -2634,7 +2634,7 @@ h3 {
 
 /* line 367, ../../Arafath/CL/CL October/213. Business/HTML/scss/_offers.scss */
 #test-form .white-popup-block .popup_inner .gj-datepicker span {
-  color: red;
+  color: blue;
 }
 
 /* line 372, ../../Arafath/CL/CL October/213. Business/HTML/scss/_offers.scss */
@@ -3505,7 +3505,7 @@ h3 {
   display: table;
   width: 100%;
   height: 100%;
-  background: #ff1744;
+  background: #007bff;
   -webkit-transform: translateY(40%);
   -moz-transform: translateY(40%);
   -ms-transform: translateY(40%);
@@ -3812,7 +3812,7 @@ h3 {
 
 /* line 30, ../../Arafath/CL/CL October/213. Business/HTML/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #ff5e13;
+  color: blue;
 }
 
 /* line 36, ../../Arafath/CL/CL October/213. Business/HTML/scss/_contact.scss */
@@ -3942,7 +3942,7 @@ h3 {
 
 /* line 146, ../../Arafath/CL/CL October/213. Business/HTML/scss/_contact.scss */
 .contact-section .btn_2:hover {
-  background-color: #ff5e13;
+  background-color: blue;
 }
 
 /* line 75, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
@@ -3963,7 +3963,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+  color: blue;
 }
 
 /* line 93, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
@@ -4135,28 +4135,28 @@ h6 {
 /* line 217, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #ff5e13;
+  background: blue;
   border: 1px solid transparent;
 }
 
 /* line 221, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .genric-btn.primary:hover {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: blue;
+  border: 1px solid blue;
   background: #fff;
 }
 
 /* line 227, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .genric-btn.primary-border {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: blue;
+  border: 1px solid blue;
   background: #fff;
 }
 
 /* line 231, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #ff5e13;
+  background: blue;
   border: 1px solid transparent;
 }
 
@@ -4314,7 +4314,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #ff5e13;
+  border-left: 2px solid blue;
 }
 
 /* line 353, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
@@ -4469,7 +4469,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #ff5e13;
+  border: 3px solid blue;
   background: #fff;
   top: 4px;
   left: 0;
@@ -4484,7 +4484,7 @@ h6 {
 /* line 475, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #ff5e13;
+  color: blue;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4499,7 +4499,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #ff5e13;
+  color: blue;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4514,7 +4514,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #ff5e13;
+  color: blue;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4597,7 +4597,7 @@ h6 {
 /* line 568, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #ff5e13;
+  border: 1px solid blue;
 }
 
 /* line 574, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
@@ -4665,7 +4665,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #ff5e13;
+  background: blue;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -4756,7 +4756,7 @@ h6 {
 
 /* line 696, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #ff5e13;
+  background: blue;
 }
 
 /* line 704, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
@@ -5143,13 +5143,13 @@ h6 {
 
 /* line 1022, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #ff5e13;
+  color: blue;
   background: transparent;
 }
 
 /* line 1026, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #ff5e13;
+  color: blue;
   background: transparent;
 }
 
@@ -5206,13 +5206,13 @@ h6 {
 
 /* line 1067, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #ff5e13;
+  color: blue;
   background: transparent;
 }
 
 /* line 1071, ../../Arafath/CL/CL October/213. Business/HTML/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #ff5e13;
+  color: blue;
   background: transparent;
 }
 
