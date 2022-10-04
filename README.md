@@ -35,7 +35,6 @@
 
 ### Built With
 
-* <a href="https://flutter.dev/">Flutter (Dart)</a>
 * <a href="https://make.powerapps.com/">Power Apps</a>
 * Love
 * Tears
@@ -43,7 +42,7 @@
 ### The Team
 
 <ul>
-  <li><a href="mailto:C22Andrew.Panzarella@afacademy.af.edu">Andrew Panzarella</a>: Director</li>
-  <li><a href="mailto:C22Joshua.Krutz@afacademy.af.edu">Joshua Krutz</a>: Deputy Director</li>
-  <li><a href="mailto:C22Jim.Wang@afacademy.af.edu">Jim Wang</a>: IT Officer</li>
+  <li><a href="mailto:c23Anna.Little@afacademy.af.edu">Anna Little</a>: Director</li>
+  <li><a href="mailto:C23Samuel.Lowery@afacademy.af.edu">Samuel Lowery</a>: Deputy Director</li>
+  <li><a href="mailto:C23Jacob.Garbrecht@afacademy.af.edu">Jacob Garbrecht</a>: IT Officer</li>
 </ul>
